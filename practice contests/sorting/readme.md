@@ -4,7 +4,7 @@ Welcome to the **Sorting** folder! Here, you'll find the problems and solutions 
 ## Folder Structure
 
 - **`solutions/c++`**: Contains solutions for each problem from the contest with c++.
-- **`solutions/python`**: Contains solutions for each problem from the contest with Python.
+- **`solutions/Python`**: Contains solutions for each problem from the contest with Python.
 
 ---
 
