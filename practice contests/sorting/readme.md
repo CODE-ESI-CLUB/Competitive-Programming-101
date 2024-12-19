@@ -5,7 +5,7 @@ Welcome to the **Sorting** folder! Here, you'll find the problems and solutions 
 
 - **`solutions/c++`**: Contains solutions for each problem from the contest with c++.
 - **`solutions/Python`**: Contains solutions for each problem from the contest with Python.
-
+- **`editorial.pdf`**: Contains a well explained approached used in every solution of the contest
 ---
 
 ## Purpose
