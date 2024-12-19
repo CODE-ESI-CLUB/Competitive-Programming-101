@@ -31,7 +31,7 @@ This folder is designed to help participants and learners:
 
 If you have questions or run into technical issues:
 - Reach out on the **club's Discord channel**.
-- Contact Hamza-Bouali directly.
+- Contact The Cell Head directly.
 
 ---
 
