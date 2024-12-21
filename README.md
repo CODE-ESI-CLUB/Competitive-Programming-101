@@ -80,8 +80,8 @@ The repository includes categorized problems with solutions to help you practice
 - **[Hamza Bouali](https://github.com/Hamza-Bouali)**: Competitive programming cell Co-Head and Data science student.
 - **[Salim Elmardi](https://github.com/SalimELMARDI)**: Data/Ai cell Co-Head and Data science student.
 
-###Want to see your name here? Start contributing by submitting a pull request!
----
+Want to see your name here? Start contributing by submitting a pull request!
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
