@@ -1,0 +1,20 @@
+project:
+  name: "Competitive Programming 101"
+  theme: "Educational"
+  license: "MIT"
+  created_at: "2024-12-21"
+
+languages:
+  - "C++"
+  - "Python"
+
+creators:
+  - name: "Hamza Bouali"
+    role: "Contest setter & c++ solution writter"
+  - name: "Salim Elmardi "
+    role: "Editorial Author & python solution writter"
+  - name: "wafae Bouamajjane"
+    role: "Sessions author"
+
+
+repository_url: "https://github.com/CODE-ESI-CLUB/Competitive-Programming-101"
