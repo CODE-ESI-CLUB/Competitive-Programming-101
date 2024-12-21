@@ -2,6 +2,10 @@
 
 Welcome to **Sorting** practice contest folder! This folder contains problems and their solutions to help you master this topic.
 
+> 🚀 **Participate in the Contest:**  
+> [Click here to join the contest!](https://open.kattis.com/contests/fbkd74)
+
+
 ## 📂 Folder Structure
 ```
 ├── Editorial.pdf # Explanation of our solution approaches 
