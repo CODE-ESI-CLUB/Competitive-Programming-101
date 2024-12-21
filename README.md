@@ -1,5 +1,5 @@
 # Competitive Programming 101
-all the needed ressources &amp; practice contests editorials 
+
 Welcome to **Competitive Programming 101**, a comprehensive resource repository to kickstart your journey in competitive programming. Whether you're a beginner or looking to refine your skills, this repository has you covered.
 
 ## 🚀 Getting Started
@@ -8,13 +8,13 @@ To get started, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/CODE-ESI-CLUB/competitive-programming-101.git
+   git clone https://github.com/your-username/competitive-programming-101.git
    cd competitive-programming-101
    ```
 
 2. Explore the folders for resources and practice problems.
 
-## 📂 Repository Structure (soon)
+## 📂 Repository Structure
 
 ```
 Competitive-Programming-101/
@@ -36,27 +36,38 @@ Competitive-Programming-101/
 │   ├── Techniques.md     # Advanced problem-solving techniques
 │   ├── Problems/         # Challenging problems
 ├── Resources.md          # Links to tutorials, books, and guides
+├── Beginner_Guide.md     # Step-by-step guide for beginners
+├── FAQ.md                # Frequently Asked Questions
+├── Changelog.md          # Logs of changes and updates
+├── Issue_Template.md     # Template for reporting issues
+├── Pull_Request_Template.md # Template for pull requests
+├── Roadmap.md            # Future plans for the repository
+├── Acknowledgements.md   # Credits and recognitions
+├── Troubleshooting.md    # Solutions to common issues
+├── About.md              # Details about the project's purpose
 ├── Contributing.md       # How to contribute to this repository
+├── CODE_OF_CONDUCT.md    # Code of Conduct for contributors
+├── LICENSE.md            # License for the project
 └── README.md             # This file
 ```
 
 ## 📚 Topics Covered (soon)
 
-- **Basic Concepts**: Time complexity, I/O optimization, recursion....
-- **Algorithms**: Sorting, searching, graph algorithms, dynamic programming...
-- **Data Structures**: Arrays, linked lists, stacks, queues, trees, graphs....
-- **Advanced Techniques**: Bit manipulation, segment trees, fenwick trees....
+- **Basic Concepts**: Time complexity, I/O optimization, recursion
+- **Algorithms**: Sorting, searching, graph algorithms, dynamic programming
+- **Data Structures**: Arrays, linked lists, stacks, queues, trees, graphs
+- **Advanced Techniques**: Bit manipulation, segment trees, fenwick trees
 
-## 🌟 Resources (soon)
+## 🌟 Resources
 
 Explore detailed resources for each topic in [Resources.md](Resources.md). You will find links to:
 - Tutorials
 - Competitive programming platforms (Codeforces, LeetCode, etc.)
 - Recommended books and blogs
 
-## 🏆 Practice contests
+## 🏆 Practice Problems
 
-The repository includes categorized problems with solutions to help you practice, the problems are sorted in difficulty ascending order:
+The repository includes categorized problems with solutions to help you practice:
 
 - **Beginner**: Easy problems to build confidence.
 - **Intermediate**: Problems requiring deeper problem-solving skills.
@@ -80,6 +91,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-Have questions or suggestions? Open an issue or contact the maintainer at [code@esi.ac.ma] .
+Have questions or suggestions? Open an issue or contact the maintainer at [code@esi.ac.ma].
 
 Happy coding! 🚀
