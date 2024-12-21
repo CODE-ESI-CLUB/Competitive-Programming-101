@@ -23,8 +23,8 @@ Competitive-Programming-101/
 |       ├── Editorial.pdf #our solutions approach explained
 |       ├── Readme.md
 |       ├── Solutions/
-|       |   ├── c++/      #solution written in python code
-|       |   ├── python/   #solution written in python code 
+|           ├── c++/      #solution written in python code
+|           ├── python/   #solution written in python code 
 ├── Beginner/
 │   ├── Concepts.md       # Core concepts for beginners
 │   ├── Problems/         # Starter problems with solutions
