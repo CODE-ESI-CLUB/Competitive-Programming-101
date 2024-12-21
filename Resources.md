@@ -7,6 +7,7 @@ Welcome to the **Resources** page! Here, you'll find a curated list of tutorials
 ## 📖 Tutorials and Guides
 
 - [GeeksforGeeks](https://www.geeksforgeeks.org/): Comprehensive articles on algorithms, data structures, and programming concepts.
+- [youkn0wwho academy](https://youkn0wwho.academy/topic-list): A comprehensive list of topics in Competitive Programming
 - [TopCoder Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials): Tutorials written by top competitive programmers.
 - [CP Algorithms](https://cp-algorithms.com/): A treasure trove of algorithms and problem-solving techniques.
 - [CodeChef Tutorials](https://www.codechef.com/certification/data-structures-and-algorithms/prepare): Step-by-step guidance for beginners and intermediate programmers.
@@ -27,10 +28,11 @@ Welcome to the **Resources** page! Here, you'll find a curated list of tutorials
 ## 📚 Recommended Books
 
 1. **Competitive Programming 3** by Steven Halim and Felix Halim: A must-read for intermediate and advanced programmers.
-2. **Introduction to Algorithms** by Cormen, Leiserson, Rivest, and Stein: The go-to reference for algorithms (commonly called CLRS).
-3. **Algorithm Design** by Jon Kleinberg and Éva Tardos: Focused on problem-solving techniques.
-4. **Elements of Programming Interviews** by Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash: Great for interview prep.
-5. **Cracking the Coding Interview** by Gayle Laakmann McDowell: Practical tips and problems for coding interviews.
+2. **[Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)**  by Antti Laaksonen : solid resource for anyone serious about competitive programming, and if you're aiming to deepen your problem-solving skills.
+3. **Introduction to Algorithms** by Cormen, Leiserson, Rivest, and Stein: The go-to reference for algorithms (commonly called CLRS).
+4. **Algorithm Design** by Jon Kleinberg and Éva Tardos: Focused on problem-solving techniques.
+5. **Elements of Programming Interviews** by Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash: Great for interview prep.
+6. **Cracking the Coding Interview** by Gayle Laakmann McDowell: Practical tips and problems for coding interviews.
 
 ---
 
@@ -40,7 +42,7 @@ Welcome to the **Resources** page! Here, you'll find a curated list of tutorials
 - [Sublime Text](https://www.sublimetext.com/): Simple yet effective text editor.
 - [IDEA IntelliJ](https://www.jetbrains.com/idea/): A powerful IDE for Java and other languages.
 - [CLion](https://www.jetbrains.com/clion/): Excellent for C++ development.
-- [Online IDEs](https://www.geeksforgeeks.org/online-ide-geeksforgeeks/): No installation required.
+- [Online IDEs](https://www.onlinegdb.com/): No installation required.
 
 ---
 
