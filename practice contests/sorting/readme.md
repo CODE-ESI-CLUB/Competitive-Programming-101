@@ -7,8 +7,8 @@ Welcome to **Sorting** practice contest folder! This folder contains problems an
 ├── Editorial.pdf # Explanation of our solution approaches 
 ├── Readme.md # This file
 ├── Solutions/ # Folder containing solutions for the problems 
-    │ ├── c++/ # Solutions implemented in C++ 
-    │ ├── python/ # Solutions implemented in Python
+│     ├── c++/ # Solutions implemented in C++ 
+│     ├── python/ # Solutions implemented in Python
 ```
 
 
