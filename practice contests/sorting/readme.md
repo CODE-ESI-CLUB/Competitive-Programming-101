@@ -1,38 +1,46 @@
-Welcome to the **Sorting** folder! Here, you'll find the problems and solutions of the practice contest under the theme "Sorting".
+# Practice Contest: {Contest Theme}
+
+Welcome to the **{Contest Theme}** practice contest folder! This folder contains problems and their solutions to help you master this topic.
+
+## 📂 Folder Structure
+
+├── Editorial.pdf # Explanation of our solution approaches 
+├── Readme.md # This file
+├── Solutions/ # Folder containing solutions for the problems 
+    │ ├── c++/ # Solutions implemented in C++ 
+    │ ├── python/ # Solutions implemented in Python
+
+
+## 📝 Editorial
+
+The **[Editorial.pdf](Editorial.pdf)** provides:
+- Detailed explanations of the solution approaches.
+- Complexity analysis for each problem.
+- Alternative solutions, if applicable.
+
+## 🚀 Solutions
+
+The **Solutions** folder contains problem solutions in the following languages:
+- **C++**: Solutions written in C++ are in the `c++/` subfolder.
+- **Python**: Solutions written in Python are in the `python/` subfolder.
+
+Each solution file follows this naming convention:
+<problem-name>.<extension>
+
+For example:
+- `problem1.cpp` (C++)
+- `problem1.py` (Python)
+
+## 🤝 How to Contribute
+
+Want to add your solution or improve existing ones? Follow these steps:
+1. Fork the repository.
+2. Add your solution to the appropriate folder (`c++/` or `python/`).
+3. Update this `README.md` with your problem and solution details.
+4. Submit a Pull Request!
+
+For more details, see the [Contributing Guide](../../Contributing.md).
+
 ---
 
-## Folder Structure
-
-- **`solutions/c++`**: Contains solutions for each problem from the contest with c++.
-- **`solutions/Python`**: Contains solutions for each problem from the contest with Python.
-- **`editorial.pdf`**: Contains a well explained approached used in every solution of the contest
----
-
-## Purpose
-
-This folder is designed to help participants and learners:
-1. **Understand problem-solving approaches** used in the contest.
-2. **Review detailed solutions** to identify alternative methods and optimizations.
-3. **Compare your solutions** with those provided to enhance your learning.
-
-
----
-
-## Helpful Resources
-
-- [Introduction to Sorting Algorithms (Khan Academy)](https://www.khanacademy.org/computing/computer-science/algorithms)
-- [Quick Sort in-depth explanation (GeeksForGeeks)](https://www.geeksforgeeks.org/quick-sort/)
-- [Merge Sort Visualization (VisuAlgo)](https://visualgo.net/en/sorting)
-- [Competitive Programmer’s Handbook p:25](https://cses.fi/book/book.pdf)
-
----
-
-## Contact & Support
-
-If you have questions or run into technical issues:
-- Reach out on the **club's Discord channel**.
-- Contact The Cell Head directly.
-
----
-
-Happy Coding! 🚀
+Happy coding! 🚀
