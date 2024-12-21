@@ -1,7 +1,5 @@
-# Competitive-Programming-101
-all the needed ressources &amp; practice contests editorials 
 # Competitive Programming 101
-
+all the needed ressources &amp; practice contests editorials 
 Welcome to **Competitive Programming 101**, a comprehensive resource repository to kickstart your journey in competitive programming. Whether you're a beginner or looking to refine your skills, this repository has you covered.
 
 ## 🚀 Getting Started
