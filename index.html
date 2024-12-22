@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn competitive programming through real-life problems and algorithms. Join our global community of problem solvers!">
+  <meta name="keywords" content="competitive programming, algorithms, data structures, programming challenges">
+  <meta name="theme-color" content="#333333">
+  
+  <title>Competitive Programming 101 - Master Problem-Solving & Algorithms</title>
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --primary-color: #f06d4d;
+      --secondary-color: #6f86d6;
+      --dark-color: #333;
+      --light-color: #fafafa;
+      --transition: all 0.3s ease;
+    }
+
+    /* Modern CSS Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Improved accessibility */
+    :focus {
+      outline: 3px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+
+    body {
+      font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+      background-color: var(--light-color);
+      color: var(--dark-color);
+      line-height: 1.6;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    /* Performance optimized animations */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    .navbar {
+      background-color: var(--dark-color);
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background-color: var(--primary-color);
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .header {
+      min-height: 100vh;
+      background: linear-gradient(
+        135deg,
+        rgba(240, 109, 77, 0.9),
+        rgba(111, 134, 214, 0.9)
+      );
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .header-content {
+      max-width: 800px;
+    }
+
+    .header-content h1 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      background: white;
+      color: var(--dark-color);
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+      border: 2px solid transparent;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      padding: 5rem 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: var(--transition);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: var(--dark-color);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+    }
+
+    /* Loading Skeleton */
+    .skeleton {
+      background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+    }
+
+    @keyframes loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+
+  <nav class="navbar" role="navigation">
+    <div class="navbar-container">
+      <a href="#" class="brand-logo" aria-label="CP101 Home">CP101</a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#repository">Repository</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <header class="header">
+      <div class="header-content">
+        <h1>Competitive Programming 101</h1>
+        <p>Master the art of problem-solving and algorithms with our comprehensive platform</p>
+        <a href="#repository" class="btn">Start Learning <span aria-hidden="true">→</span></a>
+      </div>
+    </header>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+          <article class="feature-card">
+            <i class="fas fa-lightbulb feature-icon" aria-hidden="true"></i>
+            <h3>Comprehensive Learning</h3>
+            <p>Step-by-step guides covering algorithms, data structures, and problem-solving techniques.</p>
+          </article>
+          <article class="feature-card">
+            <i class="fas fa-code feature-icon" aria-hidden="true"></i>
+            <h3>Practice Problems</h3>
+            <p>Curated collection of problems with increasing difficulty to build your skills.</p>
+          </article>
+          <article class="feature-card">
+            <i class="fas fa-users feature-icon" aria-hidden="true"></i>
+            <h3>Community Learning</h3>
+            <p>Join our active community to share solutions and learn from peers worldwide.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="repository" class="section">
+      <div class="container">
+        <h2>GitHub Repository</h2>
+        <p>Access our open-source codebase and contribute to the community.</p>
+        <a href="https://github.com/CODE-ESI/competitive-programming-101" 
+           class="btn" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          Visit Repository <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CODE-ESI. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/CODE-ESI" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Intersection Observer for lazy loading and animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    document.querySelectorAll('.feature-card').forEach(card => {
+      observer.observe(card);
+    });
+
+    // Mobile menu toggle
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn?.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', !isExpanded);
+    });
+
+    // Smooth scroll behavior
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
