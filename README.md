@@ -20,35 +20,35 @@ To get started, follow these steps:
 Competitive-Programming-101/
 ├── Practice contests/
 |   ├── {contest theme}/
-|       ├── Editorial.pdf #our solutions approach explained
+|       ├── Editorial.pdf       #our solutions approach explained
 |       ├── Readme.md
 |       ├── Solutions/
-|           ├── c++/      #solution written in python code
-|           ├── python/   #solution written in python code 
+|           ├── c++/            #solution written in python code
+|           ├── python/         #solution written in python code 
 ├── Beginner/
-│   ├── Concepts.md       # Core concepts for beginners
-│   ├── Problems/         # Starter problems with solutions
+│   ├── Concepts.md             # Core concepts for beginners
+│   ├── Problems/               # Starter problems with solutions
 ├── Intermediate/
-│   ├── Algorithms.md     # Key algorithms for problem-solving
-│   ├── DataStructures.md # Must-know data structures
-│   ├── Problems/         # Intermediate-level challenges
+│   ├── Algorithms.md           # Key algorithms for problem-solving
+│   ├── DataStructures.md       # Must-know data structures
+│   ├── Problems/               # Intermediate-level challenges
 ├── Advanced/
-│   ├── Techniques.md     # Advanced problem-solving techniques
-│   ├── Problems/         # Challenging problems
-├── Resources.md          # Links to tutorials, books, and guides
-├── Beginner_Guide.md     # Step-by-step guide for beginners
-├── FAQ.md                # Frequently Asked Questions
-├── Changelog.md          # Logs of changes and updates
-├── Issue_Template.md     # Template for reporting issues
-├── Pull_Request_Template.md # Template for pull requests
-├── Roadmap.md            # Future plans for the repository
-├── Acknowledgements.md   # Credits and recognitions
-├── Troubleshooting.md    # Solutions to common issues
-├── About.md              # Details about the project's purpose
-├── Contributing.md       # How to contribute to this repository
-├── CODE_OF_CONDUCT.md    # Code of Conduct for contributors
-├── LICENSE.md            # License for the project
-└── README.md             # This file
+│   ├── Techniques.md           # Advanced problem-solving techniques
+│   ├── Problems/               # Challenging problems
+├── Resources.md                # Links to tutorials, books, and guides
+├── Beginner_Guide.md           # Step-by-step guide for beginners
+├── FAQ.md                      # Frequently Asked Questions
+├── Changelog.md                # Logs of changes and updates
+├── Issue_Template.md           # Template for reporting issues
+├── Pull_Request_Template.md    # Template for pull requests
+├── Roadmap.md                  # Future plans for the repository
+├── Acknowledgements.md         # Credits and recognitions
+├── Troubleshooting.md          # Solutions to common issues
+├── About.md                    # Details about the project's purpose
+├── Contributing.md             # How to contribute to this repository
+├── CODE_OF_CONDUCT.md          # Code of Conduct for contributors
+├── LICENSE.md                  # License for the project
+└── README.md                   # This file
 ```
 
 ## 📚 Topics Covered (soon)
