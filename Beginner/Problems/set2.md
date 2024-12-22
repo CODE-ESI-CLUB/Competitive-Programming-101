@@ -1,7 +1,3 @@
-Here’s another **set of beginner problem statements** to broaden the practice material:
-
----
-
 ### Problem 13: Sum of Odd Numbers  
 **Statement**: Write a program to compute the sum of all odd numbers less than or equal to `N`.  
 
@@ -223,5 +219,3 @@ aebdc
 Output: `"YES"`  
 
 ---
-
-These problems provide diverse challenges for beginners, focusing on number operations, arrays, strings, and matrices. Let me know if you’d like more variations or problem themes!
