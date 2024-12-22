@@ -199,6 +199,18 @@
       }
     }
 
+    /* Visually hidden class for accessibility */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
     /* Loading Skeleton */
     .skeleton {
       background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
@@ -207,7 +219,7 @@
     }
 
     @keyframes loading {
-      0% { background-position: 200% 0; }
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
       100% { background-position: -200% 0; }
     }
   </style>
@@ -218,10 +230,8 @@
 
   <nav class="navbar" role="navigation">
     <div class="navbar-container">
-      <a href="#" class="brand-logo" aria-label="CP101 Home">CP101</a>
-      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
-        <i class="fas fa-bars"></i>
-      </button>
+    <a href="#" class="brand-logo" style="text-decoration: none; color: #e0e0e0;">CP101</a>
+      
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#features">Features</a></li>
@@ -281,9 +291,10 @@
     <div class="container">
       <p>&copy; 2024 CODE-ESI. All rights reserved.</p>
       <div class="social-links">
-        <a href="https://github.com/CODE-ESI" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/CODE-ESI" style="color: #e0e0e0;" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <i class="fab fa-github" aria-hidden="true"></i>
         </a>
+        
       </div>
     </div>
   </footer>
@@ -330,4 +341,6 @@
         }
       });
     });
-  </script>
+    </script>
+  </body>
+  </html>
