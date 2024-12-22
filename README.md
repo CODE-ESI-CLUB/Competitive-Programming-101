@@ -89,5 +89,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 Have questions or suggestions? Open an issue or contact the maintainer at [code@esi.ac.ma].
-
+For more practice contact **[Wafae Boumajjane](https://github.com/Jane-972)** or  **[Hamza Bouali](https://github.com/Hamza-Bouali)**
 Happy coding! 🚀
