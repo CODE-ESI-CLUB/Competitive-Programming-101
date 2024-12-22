@@ -1,7 +1,3 @@
-Here’s a **set of intermediate-level problem statements** to help transition to more complex problem-solving:
-
----
-
 ### Problem 1: Maximum Subarray Sum (Kadane’s Algorithm)  
 **Statement**: Given an array of integers, find the sum of the contiguous subarray that has the maximum sum.  
 
@@ -254,5 +250,3 @@ Input:
 Output: `6`  
 
 ---
-
-These problems require intermediate problem-solving skills, with an emphasis on graph algorithms, dynamic programming, binary search, and array manipulation. Let me know if you'd like further ideas or solutions for these!
