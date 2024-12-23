@@ -1,252 +1,198 @@
-### Problem 1: Maximum Subarray Sum (Kadane’s Algorithm)  
-**Statement**: Given an array of integers, find the sum of the contiguous subarray that has the maximum sum.  
-
-**Input**:  
-- A single integer `N` (1 ≤ N ≤ 10^5), followed by `N` integers (can include negative values).  
-**Output**: The maximum subarray sum.  
-
-**Example**:  
-Input:  
-```
-8  
--2 1 -3 4 -1 2 1 -5 4  
-```  
-Output: `6`  
+Competitive programming is about solving challenges systematically. Below is a collection of intermediate-level problems categorized by topics. Each chapter focuses on a specific type of problem or algorithm, with well-structured problem statements and examples to guide you.
 
 ---
 
-### Problem 2: Longest Subarray with Sum X  
-**Statement**: Find the length of the longest subarray in a given array whose elements sum to `X`.  
-
-**Input**:  
-- An integer `N` (1 ≤ N ≤ 10^5), followed by `N` integers.  
-- An integer `X`.  
-**Output**: The length of the longest subarray with sum `X`.  
-
-**Example**:  
-Input:  
-```
-6  
-1 2 3 -2 5 1  
-5  
-```  
-Output: `2`  
+## **Table of Contents**
+1. [Array & Matrix Manipulation](#array-and-matrix-manipulation)
+2. [Sorting and Searching](#sorting-and-searching)
+3. [Dynamic Programming](#dynamic-programming)
+4. [Graph Problems](#graph-problems)
+5. [Bit Manipulation](#bit-manipulation)
+6. [Divide and Conquer](#divide-and-conquer)
+7. [Greedy Algorithms](#greedy-algorithms)
+8. [Tree and Graph Data Structures](#tree-and-graph-data-structures)
+9. [Sliding Window and Two Pointers](#sliding-window-and-two-pointers)
+10. [String Algorithms](#string-algorithms)
+11. [Miscellaneous Problems](#miscellaneous-problems)
 
 ---
 
-### Problem 3: Find Cycle in a Directed Graph  
-**Statement**: Given a directed graph with `N` vertices and `M` edges, determine if there is a cycle.  
+## **1. Array & Matrix Manipulation**
 
-**Input**:  
-- Two integers `N` and `M` (1 ≤ N, M ≤ 10^4).  
-- Followed by `M` pairs of integers representing directed edges.  
+### **Problem 1: Maximum Subarray Sum (Kadane’s Algorithm)**
+- **Statement**: Given an array of integers, find the maximum sum of any contiguous subarray.
+- **Input**: A single array of size `n` with elements `a[i]`.
+- **Output**: Maximum sum of contiguous subarray.
+- **Example**:
+  - Input: `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`
+  - Output: `6`
+- **Test Cases**:
+  ```
+  Input: [1, 2, 3, -2, 5]
+  Output: 9
 
-**Output**:  
-`"YES"` if a cycle exists, otherwise `"NO"`.  
-
-**Example**:  
-Input:  
-```
-4 4  
-1 2  
-2 3  
-3 4  
-4 2  
-```  
-Output: `"YES"`  
+  Input: [-1, -2, -3, -4]
+  Output: -1
+  ```
 
 ---
 
-### Problem 4: Minimum Spanning Tree (Kruskal or Prim’s Algorithm)  
-**Statement**: Given an undirected weighted graph with `N` vertices and `M` edges, find the weight of the minimum spanning tree (MST).  
+### **Problem 2: Spiral Matrix Traversal**
+- **Statement**: Print the elements of a matrix in a spiral order starting from the top-left corner.
+- **Input**: A 2D matrix of dimensions `m x n`.
+- **Output**: The elements in spiral order.
+- **Example**:
+  ```
+  Input: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+  Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+  ```
+- **Test Cases**:
+  ```
+  Input: [[1, 2], [3, 4]]
+  Output: [1, 2, 4, 3]
 
-**Input**:  
-- Two integers `N` and `M` (1 ≤ N, M ≤ 10^5).  
-- Followed by `M` triplets: `u v w` where `u` and `v` are vertices, and `w` is the weight of the edge.  
-
-**Output**: The weight of the MST.  
-
-**Example**:  
-Input:  
-```
-4 5  
-1 2 3  
-2 3 1  
-3 4 4  
-4 1 2  
-1 3 5  
-```  
-Output: `7`  
+  Input: [[1]]
+  Output: [1]
+  ```
 
 ---
 
-### Problem 5: Matrix Rotation  
-**Statement**: Rotate a given `N x N` matrix 90 degrees clockwise.  
+## **2. Sorting and Searching**
 
-**Input**:  
-A single integer `N` (1 ≤ N ≤ 500), followed by an `N x N` matrix of integers.  
-**Output**: The rotated matrix.  
+### **Problem 3: Find the Median of Two Sorted Arrays**
+- **Statement**: Find the median of two sorted arrays in O(log(min(n, m))) time.
+- **Input**: Two sorted arrays of size `n` and `m`.
+- **Output**: Median of the merged array.
+- **Example**:
+  ```
+  Input: [1, 3], [2]
+  Output: 2.0
+  ```
+- **Test Cases**:
+  ```
+  Input: [1, 2], [3, 4]
+  Output: 2.5
 
-**Example**:  
-Input:  
-```
-3  
-1 2 3  
-4 5 6  
-7 8 9  
-```  
-Output:  
-```
-7 4 1  
-8 5 2  
-9 6 3  
-```  
+  Input: [0, 0], [0, 0]
+  Output: 0.0
+  ```
 
 ---
 
-### Problem 6: Subset Sum  
-**Statement**: Determine if a subset of the given array sums up to a target `S`.  
+## **3. Dynamic Programming**
 
-**Input**:  
-- An integer `N` (1 ≤ N ≤ 100), followed by `N` integers.  
-- An integer `S`.  
+### **Problem 4: Longest Increasing Subsequence (LIS)**
+- **Statement**: Find the length of the longest subsequence where all elements are in increasing order.
+- **Input**: An array of integers.
+- **Output**: Length of the longest increasing subsequence.
+- **Example**:
+  ```
+  Input: [10, 9, 2, 5, 3, 7, 101, 18]
+  Output: 4
+  ```
+- **Test Cases**:
+  ```
+  Input: [3, 10, 2, 1, 20]
+  Output: 3
 
-**Output**: `"YES"` if such a subset exists, otherwise `"NO"`.  
+  Input: [50, 3, 10, 7, 40, 80]
+  Output: 4
+  ```
 
-**Example**:  
-Input:  
-```
-5  
-1 2 3 7 8  
-10  
-```  
-Output: `"YES"`  
+### **Problem 5: 0/1 Knapsack Problem**
+- **Statement**: Solve the classic knapsack problem using dynamic programming.
+- **Input**: A set of weights and corresponding values, and a total weight limit.
+- **Output**: Maximum value that can be achieved without exceeding the weight limit.
+- **Example**:
+  ```
+  Input: Weights = [1, 3, 4, 5], Values = [1, 4, 5, 7], Capacity = 7
+  Output: 9
+  ```
+- **Test Cases**:
+  ```
+  Input: Weights = [1, 2, 3], Values = [6, 10, 12], Capacity = 5
+  Output: 22
 
----
-
-### Problem 7: Shortest Path in Weighted Graph (Dijkstra’s Algorithm)  
-**Statement**: Given a weighted directed graph with `N` vertices and `M` edges, find the shortest path from a source vertex `S` to all other vertices.  
-
-**Input**:  
-- Two integers `N` and `M` (1 ≤ N, M ≤ 10^5).  
-- An integer `S` (1 ≤ S ≤ N).  
-- Followed by `M` triplets: `u v w`, where `u` and `v` are vertices, and `w` is the weight of the edge.  
-
-**Output**: A list of shortest distances from the source vertex `S` to all other vertices. If a vertex is unreachable, output `-1`.  
-
-**Example**:  
-Input:  
-```
-4 4 1  
-1 2 4  
-1 3 2  
-3 2 1  
-2 4 7  
-```  
-Output: `0 3 2 10`  
+  Input: Weights = [4, 5, 1], Values = [1, 2, 3], Capacity = 4
+  Output: 3
+  ```
 
 ---
 
-### Problem 8: Binary Search on Answer (Aggressive Cows Problem)  
-**Statement**: Place `C` cows in `N` stalls such that the minimum distance between any two cows is maximized.  
+## **4. Graph Problems**
 
-**Input**:  
-- Two integers `N` and `C` (2 ≤ C ≤ N ≤ 10^5).  
-- Followed by `N` integers representing stall positions.  
+### **Problem 6: Shortest Path in Weighted Graph**
+- **Statement**: Given a graph, find the shortest path from the source to all vertices using Dijkstra's algorithm.
+- **Input**: A weighted graph represented as adjacency list or matrix and the source vertex.
+- **Output**: Shortest path to all vertices from the source.
+- **Test Cases**:
+  ```
+  Input: Graph = {(0, 1, 4), (0, 2, 1), (2, 1, 2), (1, 3, 1)}, Source = 0
+  Output: [0, 3, 1, 4]
 
-**Output**: The maximum minimum distance.  
+  Input: Graph = {(0, 1, 10), (1, 2, 5), (2, 3, 1), (3, 0, 2)}, Source = 0
+  Output: [0, 10, 15, 16]
+  ```
 
-**Example**:  
-Input:  
-```
-5 3  
-1 2 8 4 9  
-```  
-Output: `3`  
+### **Problem 7: Detect Cycle in Undirected Graph**
+- **Statement**: Use Union-Find or BFS/DFS to detect cycles in an undirected graph.
+- **Input**: A graph represented as adjacency list.
+- **Output**: Boolean indicating presence of a cycle.
+- **Test Cases**:
+  ```
+  Input: Graph = {(0, 1), (1, 2), (2, 0)}
+  Output: True
 
----
-
-### Problem 9: Kth Smallest Element in a Sorted Matrix  
-**Statement**: Given a `N x N` matrix where each row and column are sorted in increasing order, find the `K`-th smallest element.  
-
-**Input**:  
-- Two integers `N` (1 ≤ N ≤ 500) and `K` (1 ≤ K ≤ N^2).  
-- An `N x N` matrix of integers.  
-
-**Output**: The `K`-th smallest element.  
-
-**Example**:  
-Input:  
-```
-3 5  
-1 5 9  
-10 11 13  
-12 13 15  
-```  
-Output: `11`  
+  Input: Graph = {(0, 1), (1, 2)}
+  Output: False
+  ```
 
 ---
 
-### Problem 10: Longest Common Subsequence  
-**Statement**: Find the length of the longest common subsequence (LCS) between two strings `A` and `B`.  
+## **5. Bit Manipulation**
 
-**Input**:  
-- Two strings `A` and `B` of lengths `N` and `M`, respectively (1 ≤ N, M ≤ 1000).  
-**Output**: The length of the LCS.  
+### **Problem 8: Find the Missing Number**
+- **Statement**: Use XOR properties to find the missing number in an array of size `n` containing elements from `1 to n`.
+- **Input**: An array of integers containing `n - 1` elements.
+- **Output**: The missing number.
+- **Test Cases**:
+  ```
+  Input: [1, 2, 4, 6, 3, 7, 8]
+  Output: 5
 
-**Example**:  
-Input:  
-```
-abcde  
-ace  
-```  
-Output: `3`  
+  Input: [1, 3, 4, 5, 6]
+  Output: 2
+  ```
 
----
+### **Problem 9: Count Set Bits**
+- **Statement**: Given a number, find the total number of 1s in its binary representation.
+- **Input**: A single integer `n`.
+- **Output**: Total number of set bits.
+- **Test Cases**:
+  ```
+  Input: 5
+  Output: 2
 
-### Problem 11: K Closest Points to Origin  
-**Statement**: Given `N` points in a 2D plane, find the `K` points closest to the origin `(0, 0)`.  
-
-**Input**:  
-- Two integers `N` and `K` (1 ≤ K ≤ N ≤ 10^5).  
-- Followed by `N` pairs of integers, each representing a point `(x, y)`.  
-
-**Output**: The `K` closest points in any order.  
-
-**Example**:  
-Input:  
-```
-5 3  
-1 3  
--2 2  
-5 8  
-0 1  
--1 -1  
-```  
-Output:  
-```
--2 2  
-0 1  
--1 -1  
-```  
+  Input: 15
+  Output: 4
+  ```
 
 ---
 
-### Problem 12: Trap Rainwater  
-**Statement**: Given an array of heights, compute the amount of rainwater trapped between the heights.  
+## **6. Divide and Conquer**
 
-**Input**:  
-- A single integer `N` (1 ≤ N ≤ 10^5).  
-- Followed by an array of `N` non-negative integers.  
+### **Problem 10: Closest Pair of Points**
+- **Statement**: Find the smallest distance between two points in a set using a divide-and-conquer approach.
+- **Input**: A list of points on a 2D plane.
+- **Output**: The smallest distance between any two points.
+- **Test Cases**:
+  ```
+  Input: [(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4)]
+  Output: 1.414
 
-**Output**: The total amount of water trapped.  
-
-**Example**:  
-Input:  
-```
-6  
-0 1 0 2 1 0 1 3 2 1 2 1  
-```  
-Output: `6`  
+  Input: [(0, 0), (1, 1), (3, 3)]
+  Output: 1.414
+  ```
 
 ---
+
