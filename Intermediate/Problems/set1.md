@@ -196,3 +196,197 @@ Competitive programming is about solving challenges systematically. Below is a c
 
 ---
 
+## **7. Greedy Algorithms**
+
+### **Problem 11: Activity Selection Problem**
+- **Statement**: Given `n` activities with start and end times, select the maximum number of activities that can be performed without overlapping.
+- **Input**: Two arrays `start[]` and `end[]` of size `n`.
+- **Output**: Maximum number of non-overlapping activities.
+- **Example**:
+  ```
+  Input: start = [1, 3, 0, 5, 8, 5], end = [2, 4, 6, 7, 9, 9]
+  Output: 4
+  ```
+- **Test Cases**:
+  ```
+  Input: start = [10, 12, 20], end = [20, 25, 30]
+  Output: 2
+
+  Input: start = [1, 2], end = [3, 4]
+  Output: 2
+  ```
+
+---
+
+### **Problem 12: Huffman Encoding**
+- **Statement**: Given a string with characters and frequencies, generate its Huffman encoding using a greedy approach.
+- **Input**: A string `s` and an array of frequencies `f[]`.
+- **Output**: Encoded binary strings for all characters.
+- **Example**:
+  ```
+  Input: s = "aabcc", f = [5, 9, 12, 13]
+  Output: a:00, b:01, c:1
+  ```
+- **Test Cases**:
+  ```
+  Input: s = "abc", f = [2, 3, 5]
+  Output: a:00, b:01, c:1
+
+  Input: s = "aaa", f = [1, 1, 1]
+  Output: a:0, b:10, c:11
+  ```
+
+---
+
+## **8. Tree and Graph Data Structures**
+
+### **Problem 13: Lowest Common Ancestor**
+- **Statement**: Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+- **Input**: A binary tree and two nodes `p` and `q`.
+- **Output**: The lowest common ancestor node.
+- **Example**:
+  ```
+  Input: Tree = [3, 5, 1, 6, 2, 0, 8, null, null, 7, 4], p = 5, q = 1
+  Output: 3
+  ```
+- **Test Cases**:
+  ```
+  Input: Tree = [2, 1], p = 1, q = 2
+  Output: 2
+
+  Input: Tree = [3, 5, 1, 6], p = 6, q = 5
+  Output: 5
+  ```
+
+---
+
+### **Problem 14: Detect Cycle in Directed Graph**
+- **Statement**: Use DFS or Kahn’s algorithm to detect a cycle in a directed graph.
+- **Input**: A graph represented as an adjacency list.
+- **Output**: Boolean indicating presence of a cycle.
+- **Example**:
+  ```
+  Input: Graph = {1 -> 2 -> 3 -> 1}
+  Output: True
+  ```
+- **Test Cases**:
+  ```
+  Input: Graph = {1 -> 2, 2 -> 3, 3 -> 4}
+  Output: False
+
+  Input: Graph = {1 -> 2, 2 -> 3, 3 -> 1}
+  Output: True
+  ```
+
+---
+
+## **9. Sliding Window and Two Pointers**
+
+### **Problem 15: Longest Substring Without Repeating Characters**
+- **Statement**: Find the length of the longest substring without repeating characters in a string.
+- **Input**: A string `s`.
+- **Output**: Length of the longest substring.
+- **Example**:
+  ```
+  Input: s = "abcabcbb"
+  Output: 3
+  ```
+- **Test Cases**:
+  ```
+  Input: s = "bbbbb"
+  Output: 1
+
+  Input: s = "pwwkew"
+  Output: 3
+  ```
+
+---
+
+### **Problem 16: Minimum Window Substring**
+- **Statement**: Find the smallest substring of `s` containing all characters of string `t`.
+- **Input**: Strings `s` and `t`.
+- **Output**: Smallest window substring.
+- **Example**:
+  ```
+  Input: s = "ADOBECODEBANC", t = "ABC"
+  Output: "BANC"
+  ```
+- **Test Cases**:
+  ```
+  Input: s = "a", t = "a"
+  Output: "a"
+
+  Input: s = "a", t = "aa"
+  Output: ""
+  ```
+
+---
+
+## **10. String Algorithms**
+
+### **Problem 17: Longest Palindromic Substring**
+- **Statement**: Find the longest substring in a given string that is a palindrome.
+- **Input**: A string `s`.
+- **Output**: Longest palindromic substring.
+- **Example**:
+  ```
+  Input: s = "babad"
+  Output: "bab" or "aba"
+  ```
+- **Test Cases**:
+  ```
+  Input: s = "cbbd"
+  Output: "bb"
+
+  Input: s = "a"
+  Output: "a"
+  ```
+
+---
+
+### **Problem 18: KMP String Matching Algorithm**
+- **Statement**: Use the Knuth-Morris-Pratt algorithm to find if a pattern exists in a string.
+- **Input**: Strings `text` and `pattern`.
+- **Output**: Start index of the first occurrence (or -1 if not found).
+- **Example**:
+  ```
+  Input: text = "abxabcabcaby", pattern = "abcaby"
+  Output: 6
+  ```
+- **Test Cases**:
+  ```
+  Input: text = "aaaaa", pattern = "bba"
+  Output: -1
+
+  Input: text = "aabaac", pattern = "baac"
+  Output: 2
+  ```
+
+---
+
+## **11. Miscellaneous Problems**
+
+### **Problem 19: Sudoku Solver**
+- **Statement**: Solve a partially filled 9x9 Sudoku grid.
+- **Input**: A 2D array representing a Sudoku board.
+- **Output**: A completed valid Sudoku grid.
+- **Example**:
+  ```
+  Input: board = [[5,3,'.','.',7,'.','.','.','.'],...] 
+  Output: [[5,3,4,6,7,8,9,1,2], ...]
+  ```
+
+---
+
+### **Problem 20: Minimum Cost to Connect Points**
+- **Statement**: Use Prim's or Kruskal's algorithm to find the minimum cost to connect all points in a 2D space.
+- **Input**: Array of points with `x, y` coordinates.
+- **Output**: Minimum connection cost.
+- **Example**:
+  ```
+  Input: [[0,0],[2,2],[3,10],[5,2],[7,0]]
+  Output: 20
+  ```
+
+---
+
