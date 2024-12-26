@@ -76,9 +76,9 @@ The repository includes categorized problems with solutions to help you practice
 ## 🏅 Creators and Contributors
 
 ### Creators
-- **[Wafae Boumajjane](https://github.com/Jane-972)**: Competitive programming cell Head and Software engineering student.
-- **[Hamza Bouali](https://github.com/Hamza-Bouali)**: Competitive programming cell Co-Head and Data science student.
-- **[Salim Elmardi](https://github.com/SalimELMARDI)**: Data/Ai cell Co-Head and Data science student.
+- **[Wafae Boumajjane](https://github.com/Jane-972)**: Lectures Author and CP-mentor .
+- **[Hamza Bouali](https://github.com/Hamza-Bouali)**: CP-mentor and Contests setter.
+- **[Salim Elmardi](https://github.com/SalimELMARDI)**: Data/Ai cell Co-Head and Editorial writer.
 
 Want to see your name here? Start contributing by submitting a pull request!
 
